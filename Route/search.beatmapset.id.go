@@ -3,11 +3,7 @@ package Route
 import (
 	"database/sql"
 	"fmt"
-	"github.com/Nerinyan/Nerinyan-APIV2/Logger"
-	"github.com/Nerinyan/Nerinyan-APIV2/bodyStruct"
-	"github.com/Nerinyan/Nerinyan-APIV2/db"
-	"github.com/Nerinyan/Nerinyan-APIV2/osu"
-	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo"
 	"net/http"
 	"strings"
 )
